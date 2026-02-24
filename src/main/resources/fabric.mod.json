@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "itemrandomdrop",
+	"version": "${version}",
+	"name": "ItemRandomDrop",
+	"description": "Item Random Drop",
+	"authors": [
+		"Aysta3045"
+	],
+	"contact": {
+		"github": "www.github.com/aysta3045/ItemRandomDrop"
+	},
+	"license": "MIT License",
+	"icon": "assets/itemrandomdrop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"aysta3045.itemrandomdrop.ItemRandomDrop"
+		]
+	},
+	"mixins": [
+		"itemrandomdrop.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
